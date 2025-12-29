@@ -301,24 +301,24 @@ Here, we present an example of a directory structure.
 `datalist.json` is a dictionary that contains lists representing the training, validation, and test splits.
 ```json
 {
-'training': [
-  {
-    'image':"/3d_seg_dataset_root/imagesTr/XXXX_128_0000.mha",
-    'label':"/3d_seg_dataset_root/labelsTr/XXXX_128.mha"
-  },
-],
-'validation':[
-  {
-    'image':"/3d_seg_dataset_root/imagesTr/XXXX_389_0000.mha",
-    'label':"/3d_seg_dataset_root/labelsTr/XXXX_389.mha"
-  },
-],
-'test':[
-  {
-    'image':"/3d_seg_dataset_root/imagesTr/XXXX_340_0000.mha",
-    'label':"/3d_seg_dataset_root/labelsTr/XXXX_340.mha"
-  },
-]
+  "training": [
+    {
+      "image":"/3d_seg_dataset_root/imagesTr/XXXX_128_0000.mha",
+      "label":"/3d_seg_dataset_root/labelsTr/XXXX_128.mha"
+    },
+  ],
+  "validation":[
+    {
+      "image":"/3d_seg_dataset_root/imagesTr/XXXX_389_0000.mha",
+      "label":"/3d_seg_dataset_root/labelsTr/XXXX_389.mha"
+    },
+  ],
+  "test":[
+    {
+      "image":"/3d_seg_dataset_root/imagesTr/XXXX_340_0000.mha",
+      "label":"/3d_seg_dataset_root/labelsTr/XXXX_340.mha"
+    },
+  ]
 }
 ```
 
