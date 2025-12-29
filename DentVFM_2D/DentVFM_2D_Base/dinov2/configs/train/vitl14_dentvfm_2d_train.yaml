@@ -1,0 +1,30 @@
+dino:
+  head_n_prototypes: 131072
+  head_bottleneck_dim: 384
+ibot:
+  separate_head: true
+  head_n_prototypes: 131072
+train:
+  batch_size_per_gpu: 43
+  dataset_path: ImageNet:split=TRAIN:root=/data_root/training_datasets/dentvista_2d_pretrain_dataset/Data:extra=/data_root/training_datasets/dentvista_2d_pretrain_dataset/Extra
+  centering: sinkhorn_knopp
+  train_num: 10000
+  val_num: 400
+  test_num: 400
+student:
+  arch: vit_large
+  patch_size: 14
+  drop_path_rate: 0.4
+  ffn_layer: mlp 
+  block_chunks: 0
+  pretrained_weights: '/DentVFM/pretrained_models/Dinov2_Official_Models/dinov2_vitl14_pretrain.pth'
+teacher:
+  momentum_teacher: 0.994
+optim:
+  epochs: 500
+  weight_decay_end: 0.2
+  base_lr: 2.0e-04
+  warmup_epochs: 80
+  layerwise_decay: 1.0
+crops:
+  local_crops_size: 98

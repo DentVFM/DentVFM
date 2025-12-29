@@ -1,0 +1,1 @@
+baizectl job submit --shm-size 102400 --image 10.1.17.1/m.daocloud.io/nvcr.io/nvidia/pytorch:24.02-py3-jiuyuan15 --restart-policy never --workers 1 --requests-resources cpu=24,nvidia.com/gpucores=100,nvidia.com/gpumem=81k,nvidia.com/vgpu=8 --resources cpu=24,nvidia.com/gpucores=100,nvidia.com/gpumem=81k,nvidia.com/vgpu=8 -- bash ./scripts/9h_fm_data_train_3d.sh

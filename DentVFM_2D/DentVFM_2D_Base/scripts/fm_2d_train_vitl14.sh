@@ -1,0 +1,2 @@
+# 使用9h_fm_data_2d_v6测试训练 vitl14
+PYTHONPATH=. python -m torch.distributed.launch --nproc_per_node=8 dinov2/train/train.py --config-file=dinov2/configs/train/vitl14_fm_2d_train.yaml --output-dir=../../../Model_Outputs/dinov2/Fm_2d_Test0010-2

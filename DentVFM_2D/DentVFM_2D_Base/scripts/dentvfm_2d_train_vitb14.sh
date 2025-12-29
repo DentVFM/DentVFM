@@ -1,0 +1,1 @@
+PYTHONPATH=. python -m torch.distributed.launch --nproc_per_node=8 dinov2/train/train.py --config-file=dinov2/configs/train/vitb14_dentvfm_2d_train.yaml --output-dir=/DentVFM/pretrained_models/XXXX

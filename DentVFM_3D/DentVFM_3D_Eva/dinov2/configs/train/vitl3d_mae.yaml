@@ -1,0 +1,15 @@
+train:
+  batch_size_per_gpu: 64
+  data_min_axis_size: 48
+  OFFICIAL_EPOCH_LENGTH: 125
+student:
+  full_pretrained_weights: 'XXXX.pth'
+  ffn_layer: "swiglufused"
+  block_chunks: 0
+crops:
+  global_crops_size: 96
+  local_crops_size: 64
+optim:
+  base_lr: 0.001
+evaluation:
+  eval_period_iterations: 3125

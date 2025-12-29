@@ -1,0 +1,35 @@
+dino:
+  head_n_prototypes: 131072
+  head_bottleneck_dim: 384
+ibot:
+  separate_head: true
+  head_n_prototypes: 131072
+train:
+  batch_size_per_gpu: 24
+  name: st_lung
+  centering: sinkhorn_knopp
+  OFFICIAL_EPOCH_LENGTH: 300
+student:
+  arch: vit3d_large
+  patch_size: 12
+  drop_path_rate: 0.4
+  ffn_layer: swiglufused
+  block_chunks: 4
+teacher:
+  momentum_teacher: 0.994
+optim:
+  epochs: 100
+  weight_decay_end: 0.2
+  base_lr: 1.0e-04  # learning rate for a batch size of 1024
+  warmup_epochs: 10
+  layerwise_decay: 1.0
+crops:
+  local_crops_size: 48
+preprocessing:
+    a_min: 0
+    a_max: 2500
+    b_min: 0.0
+    b_max: 1.0
+    space_x: 1.0
+    space_y: 1.0
+    space_z: 1.0

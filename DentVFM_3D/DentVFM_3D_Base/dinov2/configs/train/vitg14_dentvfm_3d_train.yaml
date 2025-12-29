@@ -1,0 +1,32 @@
+ibot:
+  separate_head: true
+  mask_ratio_min_max:
+  - 0.1
+  - 0.5
+train:
+  batch_size_per_gpu: 32
+  name: st_lung
+  centering: sinkhorn_knopp
+  OFFICIAL_EPOCH_LENGTH: 300
+  train_json_path: "/data_root/training_datasets/dentvista_3d_pretrain_dataset/train.json"
+  val_json_path: "/data_root/training_datasets/dentvista_3d_pretrain_dataset/val.json"
+  num_workers: 16
+student:
+  arch: vit3d_giant2
+  patch_size: 16
+  ffn_layer: swiglufused
+  block_chunks: 4
+optim:
+  epochs: 300
+  base_lr: 0.002
+  warmup_epochs: 10
+crops:
+  local_crops_size: 48
+preprocessing:
+    a_min: 0
+    a_max: 2500
+    b_min: 0.0
+    b_max: 1.0
+    space_x: 1.0
+    space_y: 1.0
+    space_z: 1.0

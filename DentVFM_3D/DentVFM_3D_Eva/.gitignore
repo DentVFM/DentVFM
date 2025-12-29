@@ -1,0 +1,14 @@
+build/
+dist/
+*.egg-info/
+**/__pycache__/
+.idea
+slurm*
+cufile.log
+
+**/.ipynb_checkpoints
+**/.ipynb_checkpoints/**
+
+*.swp
+
+.vscode/
