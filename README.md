@@ -31,13 +31,13 @@ DentVFM provides a label-efficient, generalizable, and scalable foundation to ad
 #### Main framework
 
 <p align="center">
-    <img src="./materials/images/main_framework.png" width="70%"/>
+    <img src="./materials/images/main_framework.png" width="50%"/>
 <p>
 
 
 #### Overall results
 <p align="center">
-    <img src="./materials/images/overall_results_v2.png" width="70%"/>
+    <img src="./materials/images/overall_results_v2.png" width="50%"/>
 <p>
 
 
