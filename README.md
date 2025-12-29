@@ -2,7 +2,7 @@
 
 
 <p align="center">
-    <img src="./docs/static/images/dentvfms_logo.png" width="400"/>
+    <img src="./materials/images/dentvfms_logo.png" width="400"/>
 <p>
 
 <p align="center">
@@ -31,13 +31,13 @@ DentVFM provides a label-efficient, generalizable, and scalable foundation to ad
 #### Main framework
 
 <p align="center">
-    <img src="./docs/static/images/main_framework.png" width="70%"/>
+    <img src="./materials/images/main_framework.png" width="70%"/>
 <p>
 
 
 #### Overall results
 <p align="center">
-    <img src="./docs/static/images/overall_results_v2.png" width="70%"/>
+    <img src="./materials/images/overall_results_v2.png" width="70%"/>
 <p>
 
 
@@ -48,7 +48,7 @@ DentVFM provides a label-efficient, generalizable, and scalable foundation to ad
 Multiple versions of DentVFM are provided. 
 
 Note: After peer review, the weights will be made publicly available; 
-during this period, they will be provided selectively upon request (<a href="./docs/static/pdfs/application_form.pdf">Protocol</a>).
+during this period, they will be provided selectively upon request (<a href="./materials/pdfs/application_form.pdf">Protocol</a>).
 
 <div align="center">
 <table style="border-collapse:collapse; text-align:center;">
@@ -110,7 +110,7 @@ Access links for the public datasets are provided.
 Please use them in compliance with the agreements specified by the owners.
 
 Note: The curated datasets will be made publicly available after the peer-review process; 
-during this period, they will be provided selectively upon request (<a href="./docs/static/pdfs/application_form.pdf">Protocol</a>).
+during this period, they will be provided selectively upon request (<a href="./materials/pdfs/application_form.pdf">Protocol</a>).
 
 
 ## How to pretrain
