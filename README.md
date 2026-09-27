@@ -66,38 +66,38 @@ during this period, they will be provided selectively upon request (<a href="./m
       <td style="padding:6px 10px; border:1px solid #ddd; vertical-align:middle;">ViT-Base</td>
       <td style="padding:6px 10px; border:1px solid #ddd; vertical-align:middle;">86M</td>
       <!-- <td style="padding:6px 10px; border:1px solid #ddd; vertical-align:middle;"><a href="preparing">Access</a></td> -->
-      <td style="padding:6px 10px; border:1px solid #ddd; vertical-align:middle;">Access</td>
+      <td style="padding:6px 10px; border:1px solid #ddd; vertical-align:middle;"><a href="https://pan.baidu.com/s/1ITqRF308wMPw4b_DbwJyYg?">Access</a></td>
     </tr>
     <tr>
       <td style="padding:6px 10px; border:1px solid #ddd; vertical-align:middle;">ViT-Large</td>
       <td style="padding:6px 10px; border:1px solid #ddd; vertical-align:middle;">300M</td>
       <!-- <td style="padding:6px 10px; border:1px solid #ddd; vertical-align:middle;"><a href="preparing">Access</a></td> -->
-      <td style="padding:6px 10px; border:1px solid #ddd; vertical-align:middle;">Access</td>
+      <td style="padding:6px 10px; border:1px solid #ddd; vertical-align:middle;"><a href="https://pan.baidu.com/s/1LWRxl7HxU9u89VQHcfC_FA?">Access</a></td>
     </tr>
     <tr>
       <td style="padding:6px 10px; border:1px solid #ddd; vertical-align:middle;">ViT-Giant</td>
       <td style="padding:6px 10px; border:1px solid #ddd; vertical-align:middle;">1100M</td>
       <!-- <td style="padding:6px 10px; border:1px solid #ddd; vertical-align:middle;"><a href="preparing">Access</a></td> -->
-      <td style="padding:6px 10px; border:1px solid #ddd; vertical-align:middle;">Access</td>
+      <td style="padding:6px 10px; border:1px solid #ddd; vertical-align:middle;"><a href="https://pan.baidu.com/s/1xnwQ4Qx143SOj_Ubqcrdig?">Access</a></td>
     </tr>
     <tr>
       <td rowspan="3" style="padding:6px 10px; border:1px solid #ddd; vertical-align:middle;"><b>DentVFM-3D</b></td>
       <td style="padding:6px 10px; border:1px solid #ddd; vertical-align:middle;">ViT-Base</td>
       <td style="padding:6px 10px; border:1px solid #ddd; vertical-align:middle;">86M</td>
       <!-- <td style="padding:6px 10px; border:1px solid #ddd; vertical-align:middle;"><a href="preparing">Access</a></td> -->
-      <td style="padding:6px 10px; border:1px solid #ddd; vertical-align:middle;">Access</td>
+      <td style="padding:6px 10px; border:1px solid #ddd; vertical-align:middle;"><a href="https://pan.baidu.com/s/1qYKsje5sgiTLvIxxxY8Utg?">Access</a></td>
     </tr>
     <tr>
       <td style="padding:6px 10px; border:1px solid #ddd; vertical-align:middle;">ViT-Large</td>
       <td style="padding:6px 10px; border:1px solid #ddd; vertical-align:middle;">300M</td>
       <!-- <td style="padding:6px 10px; border:1px solid #ddd; vertical-align:middle;"><a href="preparing">Access</a></td> -->
-      <td style="padding:6px 10px; border:1px solid #ddd; vertical-align:middle;">Access</td>
+      <td style="padding:6px 10px; border:1px solid #ddd; vertical-align:middle;"><a href="https://pan.baidu.com/s/1x7G2lOOlbkwY09s0fhD95g?">Access</a></td>
     </tr>
     <tr>
       <td style="padding:6px 10px; border:1px solid #ddd; vertical-align:middle;">ViT-Giant</td>
       <td style="padding:6px 10px; border:1px solid #ddd; vertical-align:middle;">1100M</td>
       <!-- <td style="padding:6px 10px; border:1px solid #ddd; vertical-align:middle;"><a href="preparing">Access</a></td> -->
-      <td style="padding:6px 10px; border:1px solid #ddd; vertical-align:middle;">Access</td>
+      <td style="padding:6px 10px; border:1px solid #ddd; vertical-align:middle;"><a href="https://pan.baidu.com/s/15mKyNDjh8jjfxkCmYgIjYg?">Access</a></td>
     </tr>
   </tbody>
 </table>
