@@ -1,4 +1,4 @@
-# Towards Dental Generalist Intelligence: Versatile Vision Foundation Models for Oral and Maxillofacial Radiology
+# DentVFM: A Family of Dental Radiology Foundation Models for Generalizable and Label-efficient Oral Healthcare
 
 
 <p align="center">
