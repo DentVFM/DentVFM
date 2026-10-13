@@ -1,6 +1,6 @@
 # Author: Tony Xu
 #
-# This code is licensed under the CC BY-NC-ND 4.0 license
+# This code is licensed under the Apache License 2.0
 # found in the LICENSE file in the root directory of this source tree.
 
 from monai.transforms import (

@@ -345,8 +345,7 @@ This project is built upon following excellent repositories.
 
 
 ## License
-All code and model weights are released under the CC BY-NC-ND 4.0 license.
-Please visit this <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">link</a> for more details about the license.
+All code (including the model, pre-training and evaluation code) and model weights are released under the <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a> — see the <a href="LICENSE">LICENSE</a> file.
 
 
 ## Citation
